@@ -1,0 +1,126 @@
+.login{
+ /* Establece la imagen de fondo */
+ background-image: url('./imagenes/login2.jpg');
+  
+ /* Otras propiedades opcionales para configurar la visualización de la imagen */
+ background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+ background-position: center; /* Centra la imagen en el contenedor */
+ background-repeat: no-repeat; /* Evita que la imagen se repita */
+ height:100vh;
+
+}
+
+.boton{
+
+width:100%;
+margin:2px;
+padding:2px;
+
+
+}
+.cont{
+
+    background-color: rgba(255, 255, 255, 0.5);
+height: auto;
+margin-top: -40px;
+padding: 50px;
+border-radius: 7px;
+
+
+}
+.cont {
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+  }
+  
+.contenedor{
+margin:20px;
+padding: 20px;
+
+
+
+}
+.form-control,.boton{
+margin:5px;
+padding:5px;
+
+
+}
+.titilo2{
+margin:10px;
+padding: 10px;
+
+
+}
+input{
+border:1px solid blue;
+
+
+}
+
+/* Login.css */
+@keyframes showAlert {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  animation: showAlert 0.5s ease-out forwards;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.alert.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.password-container{
+  
+  position: relative;
+}
+.password-container input[type="password"],
+.password-container input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+.fa-eye{
+  position: absolute;
+  top: 28%;
+  right: 1%;
+  cursor: pointer;
+  color: lightgray;
+}
+.fa-eye-slash{
+  position: absolute;
+  top: 28%;
+  right: 1%;
+  cursor: pointer;
+  color: lightgray;
+
+
+}
+.alert{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items:center; /* Centrado vertical */
+margin:3px;
+padding:3px;
+
+}

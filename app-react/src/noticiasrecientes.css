@@ -1,0 +1,46 @@
+.news-image{
+margin:5px;
+padding:5px;
+
+}
+
+/* Define a CSS class for responsive images */
+.news-image {
+    max-width: 100%; /* Make the image responsive within its container */
+    height: 100%; /* Maintain the image's aspect ratio */
+  }
+  
+  /* Apply a media query for smaller screens */
+  @media (max-width: 767px) {
+    /* Stack the columns on small screens */
+    .recientes .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  /* Apply a media query for smaller screens */
+@media (max-width: 767px) {
+    /* Adjust font size or other styles for smaller screens */
+    .news-title {
+      font-size: 1.5rem; /* Adjust as needed */
+    }
+  
+    .news-content {
+      font-size: 1rem; /* Adjust as needed */
+    }
+  }
+  .news-title{
+
+    font-family:'arial';
+    color:black;
+  }
+  .news-content{
+
+    font-family:'arial';
+    color:black;
+    margin:2px;
+    padding:2px;
+
+
+  }
